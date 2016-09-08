@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff helps in comparing two files and identifies all the lines that are different in the two files. 
+	
+	On Windows, we use the tool FC (file compare), with the following code:
+		FC old_file.txt new_file.txt
+		
+	On Mac or Linux or Windows Bash, we use the diff tool, with the following code:
+		diff -u old_file.txt new_file.txt
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Makes it easy to switch between versions of code. Especially if some new changes causes a bug, reverting to an older version, or identifying which version worked is extremely helpful. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I personally tend to forget saving - so an auto save would be great. But then an auto-saved version may not work properly if it has some unfinished code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google doc files are unlikely to impact other google doc files. But Git is mostly used for programming, where changes in one file can affect other files. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows the history of commits along with date when it was changed and the description of the change while committing.
+    git diff compares the files across commits and shows the difference between two versions of the same file, line by line. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Great confidence to explore more and make fundamental changes to the code without worrying about whether it would break something that was done earlier. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Go from part-time development to a full-time development mode!

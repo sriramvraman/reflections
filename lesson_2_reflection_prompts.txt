@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	An ordinary folder becomes a git repository when you initialize it as a repository. Git creates a .git folder which contains metadeta that specify the various versions of the files in repository. 
+
+	But, just initializing a repository is not enough - you need to add files and make a commit for git to start versioning the files. 
+
